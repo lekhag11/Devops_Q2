@@ -1,0 +1,42 @@
+{
+  "projects": {
+    "default": "aquagen-f6d24"
+  },
+  "targets": {
+    "aquagen-f6d24": {
+      "hosting": {
+        "uat": [
+          "aquav2"
+        ],
+        "test1": [
+          "test1-aquagen"
+        ],
+        "test2": [
+          "test2-aquagen"
+        ],
+        "test3": [
+          "test3-aquagen"
+        ],
+        "test4": [
+          "test4-aquagen"
+        ],
+        "test5": [
+          "test5-aquagen"
+        ],
+        "test6": [
+          "test6-aquagen"
+        ],
+        "test7": [
+          "test7-aquagen"
+        ],
+        "dev": [
+          "dev-aquagen"
+        ],
+        "pre-prod": [
+          "pre-prod-aquagen"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

@@ -1,0 +1,114 @@
+{
+    "hosting": [
+        {
+            "public": "build",
+            "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+            "target": "uat",
+            "rewrites": [
+                {
+                    "source": "**",
+                    "destination": "/index.html"
+                }
+            ]
+        },
+        {
+            "public": "build",
+            "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+            "target": "test1",
+            "rewrites": [
+                {
+                    "source": "**",
+                    "destination": "/index.html"
+                }
+            ]
+        },
+        {
+            "public": "build",
+            "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+            "target": "test2",
+            "rewrites": [
+                {
+                    "source": "**",
+                    "destination": "/index.html"
+                }
+            ]
+        },
+        {
+            "public": "build",
+            "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+            "target": "test3",
+            "rewrites": [
+                {
+                    "source": "**",
+                    "destination": "/index.html"
+                }
+            ]
+        },
+        {
+            "public": "build",
+            "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+            "target": "test4",
+            "rewrites": [
+                {
+                    "source": "**",
+                    "destination": "/index.html"
+                }
+            ]
+        },
+        {
+            "public": "build",
+            "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+            "target": "test5",
+            "rewrites": [
+                {
+                    "source": "**",
+                    "destination": "/index.html"
+                }
+            ]
+        },
+        {
+            "public": "build",
+            "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+            "target": "test6",
+            "rewrites": [
+                {
+                    "source": "**",
+                    "destination": "/index.html"
+                }
+            ]
+        },
+        {
+            "public": "build",
+            "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+            "target": "test7",
+            "rewrites": [
+                {
+                    "source": "**",
+                    "destination": "/index.html"
+                }
+            ]
+        },
+        {
+            "public": "build",
+            "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+            "target": "pre-prod",
+            "rewrites": [
+                {
+                    "source": "**",
+                    "destination": "/index.html"
+                }
+            ]
+        },
+        {
+            "public": "build",
+            "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+            "target": "dev",
+            "rewrites": [
+                {
+                    "source": "**",
+                    "destination": "/index.html"
+                }
+            ]
+        }
+    ]
+}
